@@ -4,7 +4,7 @@ source("DataExtractorNISAT.R")
 source("DataExtractorWGI.R")
 source("DataScraping.R")
 
-# Downloading raw datasets.
+# Scrapping the raw datasets.
 DataScraping$scrape()
 
 # Extract & Format raw datasets.
