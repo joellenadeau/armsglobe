@@ -1,0 +1,22 @@
+---
+title: "analysis"
+author: "Joelle Nadeau"
+date: "Wednesday, December 03, 2014"
+output: word_document
+---
+
+Here the result of the Multiple (Linear) Regression :
+
+```{r, echo=FALSE}
+dataset <- read.csv("../data//dataset.csv")
+fit <- lm(importValue ~ politicalStability + governmentEffectiveness + ruleOfLaw, data=dataset)
+summary(fit) # show results
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(fit) # plot results
+```
+
+Note: That Result is preliminary and need to be validate.

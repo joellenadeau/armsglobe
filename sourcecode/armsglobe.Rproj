@@ -9,5 +9,5 @@ UseSpacesForTab: No
 NumSpacesForTab: 8
 Encoding: UTF-8
 
-RnwWeave: Sweave
+RnwWeave: knitr
 LaTeX: pdfLaTeX

@@ -1,0 +1,48 @@
+---
+title: "codebook"
+author: "Joelle Nadeau"
+date: "Wednesday, December 03, 2014"
+output: word_document
+---
+
+```{r, echo=FALSE}
+dataset <- read.csv("../data//dataset.csv")
+```
+
+This dataset as been build by merging a WGI dataset and a NISAT dataset.
+
+This is a listing of all the variable:
+
+```{r, echo=FALSE}
+names(dataset)
+```
+
+This is the description of all the variable:
+
+```{r}
+# TODO
+```
+
+The data is available for those years :
+
+```{r, echo=FALSE}
+unique(dataset$year)
+```
+
+The data is available for those country :
+
+```{r, echo=FALSE}
+unique(dataset$country)
+```
+
+This is a split down of the internal structure:
+
+```{r, echo=FALSE}
+str(dataset)
+```
+
+This is a summary of the data:
+
+```{r, echo=FALSE}
+summary(dataset)
+```
