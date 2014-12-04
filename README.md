@@ -1,6 +1,8 @@
-armsglobe
+Generating a WGI, NISAT dataset
 =========
 
-Arms Globe Visualization
+This dataset as been build by merging a WGI dataset and a NISAT dataset.
 
-Studying the data.
+The result is in "./data/dataset.csv".
+
+The dataset, analysis and codebook are generate by R code include here: "./sourcecode".
